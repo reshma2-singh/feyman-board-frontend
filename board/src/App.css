@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+}
+.header{
+  background-color: #007FFF;
+  height: 80px;
+}
+.home{
+ border:2px solid lightgray;
+ margin: auto;
+ width: 800px;
+ height: 450px;
+ margin-top: 40px;
+ border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888;
+}
+.home>input{
+ width:50%;
+ padding:15px;
+ border:1px solid black;
+ margin-top: 80px;
+ margin-left: 160px;
+ border-radius: 5px;
+
+}
+.home__btn{
+  padding: 15px 20px;
+  background-color:#007FFF ;
+  border: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: green;
+}
+.home>h2{
+  text-align: center;
+  margin-top: 50px;
+}
+.dash{
+  margin: auto;
+  width: 800px;
+  height:450px ;
+  border: 2px solid black;
+  margin-top: 30px;
+  position: relative;
+    box-shadow: 10px 10px 8px #888888;
+ 
+}
+.dash__btn{
+  position: absolute;
+  top:5px;
+  right:350px
+}
+.dash__btn>button{
+  padding: 15px 35px;
+  background-color:#007FFF ;
+  border: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: large;
+  
+
+}
+.dash__btn>button:hover{
+  background-color: green;
+}
+.dash__gp{
+  position: absolute;
+  top:80px;
+  right:400px;
+  
+}
+.dash__gp>h3{
+  margin-top: 10px;
+}
+.topic{
+  margin: auto;
+  width: 800px;
+  height:450px ;
+  border: 2px solid black;
+  margin-top: 30px;
+  position: relative;
+    box-shadow: 10px 10px 8px #888888;
+}
+.topic>h1{
+  text-align: center;
+}
+.topic>textarea{
+  width:70%;
+  height: 50%;
+  padding:15px;
+  border:1px solid black;
+  margin-top: 10px;
+  margin-left: 160px;
+  border-radius: 5px;
+ 
+ }
+ .topic>input{
+  width: 70%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 160px;
+    border-radius: 5px;
+ }
+ .topic__btn{
+  padding: 10px 20px;
+    background-color: #007FFF;
+    border: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: large;
+    margin-left: 410px;
+ }
+.topic__btn:hover{
+  background-color: green;
+}
+.txt{
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.spann:hover{
+  border:2px solid black;
+}
+.bttn{
+  display: flex;
+  flex-direction: column;
+}
+.bttn>button{
+  padding: 2px;
+  outline: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.word{
+  font-size: large;
+  font-weight: 800;
+  margin-top: -10px;
+}
+.title{
+  color: red;
+}
+.per{
+  color:purple
+}
+.heading{
+  text-align: center;
+  color: white;
+
+  font-weight: 800;
+  
+}
+
+
+
